@@ -8,7 +8,7 @@ CREATE TABLE cliente(
 CREATE TABLE produto(
 	codigo int(8) AUTO_INCREMENT,
 	descricao varchar(50),
-	preco float(100) NOT NULL,
+	preco float NOT NULL,
 	unidade varchar(5),
 	PRIMARY KEY(codigo)
 );
